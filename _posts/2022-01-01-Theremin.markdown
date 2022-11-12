@@ -1,9 +1,8 @@
-
 ---
 layout:     post
-title:      "The Theremin" {::comment} Title is mandatory. {:/comment}
+title:      "The Theremin"
 description: "An electronic instrument with pitch control."
-date:       2022-01-01 09:00:00 {::comment} Date is mandatory. {:/comment}
+date:       2022-01-01 09:00:00
 author:     "Jin Wook Lee"
 header-img: img/posts/header-img/woman-typing-macbook.jpg
 ---
