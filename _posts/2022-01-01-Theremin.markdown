@@ -1,5 +1,5 @@
 ---
-layout:     post {::comment}I'm commenting{:/comment}
+layout:     post
 title:      "The Theremin"
 description: "An electronic instrument with pitch control."
 date:       2022-01-01 09:00:00
