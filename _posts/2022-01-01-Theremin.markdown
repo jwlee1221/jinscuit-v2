@@ -7,9 +7,9 @@ author:     "Jin Wook Lee"
 header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
 ---
 
-# The Theremin AGH
+# The Theremin
 
-For Sophomore Projects, I built a Theremin. The theremin is an electronic musical instrument detects the movement of the hands in the air to manipulate pitch and volume of a sound.
+For Sophomore Projects (ECE291), I built a Theremin. The theremin is an electronic musical instrument detects the movement of the hands in the air to manipulate pitch and volume of a sound.
 
 The pitch-controlling component is comprised of two oscillators, whose frequencies are much greater than the audible range of the human ear. A capacitive antenna alters the frequency of one of the oscillators; then, the two signals are added to produce a signal with beat frequencies in the audible range. The instrument additionally filters out unwanted frequencies to produce a resulting sound with only the desired frequency combinations.
 
