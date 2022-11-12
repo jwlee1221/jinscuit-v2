@@ -368,8 +368,10 @@ footer p {
 .social-sharing a {
   text-decoration: none;
 }
-
-
+/* JW's additions */
+.img-right {
+  float: right;
+}
 
 
 /*--------------------------------*\
