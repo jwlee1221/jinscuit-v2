@@ -8,7 +8,7 @@ layout:     post {::comment} Every post needds this layout block with the same d
 	header-img: img/posts/header-img/woman-typing-macbook.jpg
 ---
 
-# The Theremin
+# The Theremin AGH
 
 For Sophomore Projects, I built a Theremin. The theremin is an electronic musical instrument detects the movement of the hands in the air to manipulate pitch and volume of a sound.
 
