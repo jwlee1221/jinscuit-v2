@@ -1,6 +1,6 @@
 
 ---
-layout:     post {::comment} Every post needds this layout block with the same dat as the file name. {:/comment}
+layout:     post
 	title:      "The Theremin" {::comment} Title is mandatory. {:/comment}
 	description: "An electronic instrument with pitch control."
 	date:       2022-01-01 09:00:00 {::comment} Date is mandatory. {:/comment}
