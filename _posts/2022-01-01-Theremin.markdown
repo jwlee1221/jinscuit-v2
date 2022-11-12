@@ -17,4 +17,4 @@ Another volume-controlling antenna changes capacitance depending on the position
 
 What I remember the most about this poject is that it was like a ribbon tie. It combined concepts covered in differential equations and circuits into a buildable project, and it was satisfying to see op-amps and filters perform as expected.
 
-![Theremin block diagram]({{basepath}}/assets/img/theremin 1.png){:width:"60%;"style="display:block; margin-left:auto; margin-right:auto;"}
+![Theremin block diagram]({{basepath}}/assets/img/theremin 1.png){:width="60%;"style="display:block; margin-left:auto; margin-right:auto;"}
