@@ -1,11 +1,11 @@
 
 ---
 layout:     post
-	title:      "The Theremin" {::comment} Title is mandatory. {:/comment}
-	description: "An electronic instrument with pitch control."
-	date:       2022-01-01 09:00:00 {::comment} Date is mandatory. {:/comment}
-	author:     "Jin Wook Lee"
-	header-img: img/posts/header-img/woman-typing-macbook.jpg
+title:      "The Theremin" {::comment} Title is mandatory. {:/comment}
+description: "An electronic instrument with pitch control."
+date:       2022-01-01 09:00:00 {::comment} Date is mandatory. {:/comment}
+author:     "Jin Wook Lee"
+header-img: img/posts/header-img/woman-typing-macbook.jpg
 ---
 
 # The Theremin AGH
