@@ -75,3 +75,6 @@ exclude:
 - package.json
 - README.md
 - vendor
+
+# Some additions by me (JW)
+BASE_PATH : /jinscuit-v2
