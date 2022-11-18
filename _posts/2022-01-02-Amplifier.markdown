@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "The Amplifier"
+title:      "Amplifier"
 description: "A simulated two-stage amplifier for a transceiver."
-date:       2022-01-01 09:00:00
+date:       2022-01-02 09:00:00
 author:     "Jin Wook Lee"
 header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
 ---
@@ -15,5 +15,8 @@ The target of this transceiver was to provide a 12dB voltage gain at 1GHz for a 
 
 Through this project, I learned how to use Cadence Virtuoso to run circuit simulations. The platform provides tools that match real-life circuit behavior better than tools such as LTspice. It was challenging to balance the internal (W/L), finger layouts of the transistors - together with external components - to achieve desired specifications. I learned the importance of prioritizing component specifications based on the use case.
 
-<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin1.png" width="10">
-![Theremin image]({{basepath}}/assets/img/theremin1.png){:width="20px"}
+<p align="center">
+    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/transceiver1.png" width="40%">
+    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/transceiver2.png" width="100%">
+    <!-- ![Theremin image]({{basepath}}/assets/img/theremin1.png){:width="20px"} -->
+</p>

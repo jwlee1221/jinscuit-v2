@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "Theremin"
-description: "An electronic instrument with pitch control."
-date:       2022-01-01 09:00:00
+title:      "Oscillator"
+description: "A 20kHz Phase-shift oscillator, and a 40MHz Colpitts oscillator."
+date:       2022-11-01 09:00:00
 author:     "Jin Wook Lee"
 header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
 ---
 
-# The Theremin
+# The Oscillators
 
 For Sophomore Projects (ECE291), I built a Theremin. The theremin is an electronic musical instrument detects the movement of the hands in the air to manipulate pitch and volume of a sound.
 
@@ -18,6 +18,8 @@ Another volume-controlling antenna changes capacitance depending on the position
 What I remember the most about this poject is that it was like a ribbon tie. It combined concepts covered in differential equations and circuits into a buildable project, and it was satisfying to see op-amps and filters perform as expected.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin1.png" width="90%">
-    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin2.png" width="70%">
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin1.png" width="100%">
+
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin2.png" width="100%">
+<!-- ![Theremin image]({{basepath}}/assets/img/theremin1.png){:width="20px"} -->
 </p>

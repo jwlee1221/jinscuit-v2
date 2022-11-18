@@ -6,9 +6,12 @@ layout: page
 	<div class="inner-wrapper" id="mini-about">
 		<div class="top-headline-photo">
 			<div class="sm-1-col md-2-col lg-2-col pull-left">
-				<h1>{% if site.greeting %}{{ site.greeting }}{% else %}{{ "Hello, I'm Jin Wook." }}{% endif %}
+				<h1>{% if site.greeting %}{{ site.greeting }}{% else %}{{ "Hello, I'm Jin Wook." }}
 				</h1>
+				<p>{% if site.subgreeting_one %}{{ site.subgreeting_one }}{% else %}{{ "Welcome to my website, where I post my works and experiences." }}{% endif %}
+				</p>{% endif %}
 			</div><!-- end .sm-1-col lg-2-col pull-left -->
+			
 			<div class="sm-1-col md-2-col lg-2-col pull-right small-mobile-hide">
 				{% if site.logo_img %}<img src="{{ site.baseurl }}{{ site.logo_img }}" alt="{{ site.title }}">
 				{% else %} <img src="{{ site.baseurl }}/assets/img/profile.jpg" alt="Simpol Theme Index Logo"> {% endif %}
@@ -16,7 +19,7 @@ layout: page
 		</div><!-- end .top-headline-photo -->
 
 		<div class="sm-1-col md-2-col lg-2-col pull-left">
-			<p>{% if site.subgreeting_one %}{{ site.subgreeting_one }}{% else %}{{ "Welcome to my website, where I post my works and experiences." }}{% endif %}
+			<p>{% if site.subgreeting_one %}{{ site.subgreeting_one }}{% else %}{{ " " }}{% endif %}
 			</p>
 		</div><!-- end .sm-1-col lg-2-col pull-left -->
 		<div class="sm-1-col md-2-col lg-2-col pull-right">
@@ -34,7 +37,7 @@ layout: page
 			<div class="sm-1-col lg-onequarter-col pull-left">
 				{% if post.header-img %}
 					<a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration:none;">
-						<img class="post-header-img" src="{{ site.baseurl }}/{{ post.header-img }}" alt="Simpol Theme">
+						<img class="post-header-img" src="{{ site.baseurl }}/{{ post.header-img }}" width=100% alt="Simpol Theme">
 					</a>
 				{% endif %}
 			</div><!-- end .sm-1-col lg-onequarter-col pull-left -->
