@@ -76,5 +76,5 @@ exclude:
 - README.md
 - vendor
 
-# Some additions by me (JW)
-# BASE_PATH : /jinscuit-v2
+Some additions by me (JW)
+BASE_PATH : /jinscuit-v2
