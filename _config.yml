@@ -9,7 +9,7 @@ subtitle: " "
 #content for index.html
   #Add your own info, deleting the comments "#". This data automatically writes to the Index page's mini, about section.
 greeting: #GREETING_GOES_HERE | default: Hello, I'm Simpol.
-logo_img: #LOGO_IMG_SRC_GOES_HERE | default: /assets/img/simpol-theme-square-writing-logo.png
+logo_img: /assets/img/biscuit-favicon.png
 subgreeting_one: #SUBGREETING_ONE_GOES_HERE
 subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 
@@ -40,7 +40,7 @@ google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
 copyright_name: Mathson Design, LLC
 
 # SEO data (https://github.com/jekyll/jekyll-seo-tag)
-logo: 
+logo: /assets/img/biscuit-favicon.png
 description: # Simpol Theme is a clean, minimal website theme all about the writing, the content. Currently available for Jekyll. Perfect for blogging.
 author:
   name: # Simpol Theme
