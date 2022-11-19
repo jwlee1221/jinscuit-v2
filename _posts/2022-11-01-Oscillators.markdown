@@ -4,7 +4,7 @@ title:      "Oscillators"
 description: "A 20kHz Phase-shift oscillator, and a 40MHz Colpitts oscillator."
 date:       2022-11-01 09:00:00
 author:     "Jin Wook Lee"
-header-img: assets/img/oscillator1.png
+header-img: assets/img/oscillator5.png
 ---
 
 # The Oscillators
