@@ -40,7 +40,7 @@ google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
 copyright_name: Mathson Design, LLC
 
 # SEO data (https://github.com/jekyll/jekyll-seo-tag)
-logo: https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/biscuit-favicon.png
+logo: assets/img/biscuit-favicon.png
 description: # <!-- Simpol Theme is a clean, minimal website theme all about the writing, the content. Currently available for Jekyll. Perfect for blogging. -->
 author:
   name: # Simpol Theme
