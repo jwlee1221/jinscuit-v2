@@ -9,17 +9,11 @@ header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
 
 # The Oscillators
 
-For Sophomore Projects (ECE291), I built a Theremin. The theremin is an electronic musical instrument detects the movement of the hands in the air to manipulate pitch and volume of a sound.
-
-The pitch-controlling component is comprised of two oscillators, whose frequencies are much greater than the audible range of the human ear. A capacitive antenna alters the frequency of one of the oscillators; then, the two signals are added to produce a signal with beat frequencies in the audible range. The instrument additionally filters out unwanted frequencies to produce a resulting sound with only the desired frequency combinations.
-
-Another volume-controlling antenna changes capacitance depending on the position of the hand. This capacitance alters the voltage across an LC circuit, whose signal is sent to a voltage-controlled amplifier. The change in gain in in this amplifier determines the volume of the output.
-
-What I remember the most about this poject is that it was like a ribbon tie. It combined concepts covered in differential equations and circuits into a buildable project, and it was satisfying to see op-amps and filters perform as expected.
+TBC
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin1.png" width="100%">
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/.png" width="100%">
 
-<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/theremin2.png" width="100%">
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/.png" width="100%">
 <!-- ![Theremin image]({{basepath}}/assets/img/theremin1.png){:width="20px"} -->
 </p>
