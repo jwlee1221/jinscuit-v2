@@ -9,7 +9,7 @@ subtitle: " "
 #content for index.html
   #Add your own info, deleting the comments "#". This data automatically writes to the Index page's mini, about section.
 greeting: #GREETING_GOES_HERE | default: Hello, I'm Simpol.
-logo_img: /assets/img/biscuit-favicon.png
+logo_img: #
 subgreeting_one: #SUBGREETING_ONE_GOES_HERE
 subgreeting_two: #SUBGREETING_TWO_GOES_HERE
 
