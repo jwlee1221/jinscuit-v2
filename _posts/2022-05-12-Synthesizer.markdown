@@ -4,7 +4,7 @@ title:      "Synthesizer"
 description: "A Max synthesizer patch that gradually adjusts timbre."
 date:       2022-05-12 09:00:00
 author:     "Jin Wook Lee"
-header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
+header-img: assets/img/synthesizer3.png
 ---
 
 # The Synthesizer

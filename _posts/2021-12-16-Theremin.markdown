@@ -4,7 +4,7 @@ title:      "Theremin"
 description: "An electronic instrument with pitch control."
 date:       2021-12-16 09:00:00
 author:     "Jin Wook Lee"
-header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
+header-img: assets/img/theremin3.png
 ---
 
 # The Theremin
