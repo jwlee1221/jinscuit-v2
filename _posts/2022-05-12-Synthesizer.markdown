@@ -2,7 +2,7 @@
 layout:     post
 title:      "Synthesizer"
 description: "A Max synthesizer patch that gradually adjusts timbre."
-date:       2022-01-03 09:00:00
+date:       2022-05-12 09:00:00
 author:     "Jin Wook Lee"
 header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
 ---

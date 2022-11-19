@@ -2,7 +2,7 @@
 layout:     post
 title:      "Amplifier"
 description: "A simulated two-stage amplifier for a transceiver."
-date:       2022-01-02 09:00:00
+date:       2022-05-13 09:00:00
 author:     "Jin Wook Lee"
 header-img: assets/img/posts/header-img/woman-typing-macbook.jpg
 ---
