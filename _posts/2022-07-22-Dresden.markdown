@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Dresden"
-description: "A summer research internship at TU Dresden."
+description: "A summer research internship at TU Dresden, Germany."
 date:       2022-07-22 09:00:00
 author:     "Jin Wook Lee"
 header-img: assets/img/dresden2.png
