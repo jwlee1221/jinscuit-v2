@@ -14,19 +14,19 @@ In Junior labs, we were tasked to design a single-balanced RF mixer that modulat
 Our design is an active single-balanced mixer. In this structure, the RF signal controls the tail current of a differential pair. With each transistor acting as a common-source amplifier, the RF signal gets amplified at each drain node. Meanwhile, the differential LO at the bases determines “how much” each transistor is turned on. The amplified RF signal’s voltage level consequently gets shifted to the biased drain voltages, producing a mixed output at the drain nodes.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/mixer2.png" width="100%">
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/mixer2.png" width="60%">
 </p>
 
 We designed a BJT (2N2222) Colpitts oscillator as the LO, which reached 41MHz with a 7.3V peak-to-peak amplitude and consumed 75mW from a 17V power supply. The internal noise from these components would kick-start a signal into the amplifier, and the feedback network would selectively pass the target frequency. This oscillator was also inverted to create a differential input to the mixer.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/mixer3.png" width="100%">
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/mixer3.png" width="50%">
 </p>
 
 The active mixer was built using two MOSfet (2N7002) transistors in a differential pair, with passive load at each drain. The tail current is determined by another current source that is operated by the RF signal. This RF signal is provided by a wave generator on our oscilloscope.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/mixer4.png" width="100%">
+<img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/mixer4.png" width="50%">
 </p>
 
 We first encountered an issue when building the inverter used to create a differential LO signal. While the oscillator created a steady 4.3 MHz oscillation at 8V peak-to-peak amplitude in isolation, the inverter output was significantly out-of-phase with the input oscillation.
