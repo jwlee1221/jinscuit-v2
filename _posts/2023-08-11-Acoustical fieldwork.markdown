@@ -10,7 +10,7 @@ header-img: assets/img/akrf1.png
 # A summer of fieldwork as an acoustical consultant intern
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/akrf2.png" width="90%">
+    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/akrf2.png" width="50%">
 </p>
 
 During the summer of 2023, I worked at AKRF engineering consultant firm as an acoustical engineering intern.
