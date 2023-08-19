@@ -20,7 +20,7 @@ nav_link_one_name: Categories
 nav_link_one_link: "/categories"
 
 nav_link_two_name: About
-nav_link_two_link: "/abouts"
+nav_link_two_link: "/about"
 
 nav_link_three_name: #NAV_NAME_GOES_HERE
 nav_link_three_link: #NAV_LINK_GOES_HERE
