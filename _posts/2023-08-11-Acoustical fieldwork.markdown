@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Acoustical engineering internship"
+title:      "Acoustical fieldwork"
 description: "An internship in the acoustics department at AKRF engineering consultants."
 date:       2023-08-11 09:00:00
 author:     "Jin Wook Lee"
