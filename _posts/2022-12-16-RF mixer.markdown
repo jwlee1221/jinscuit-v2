@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "RF Mixer"
+title:      "RF mixer"
 description: "A single-balanced RF mixer with 4MHz local oscillator."
 date:       2022-12-06 09:00:00
 author:     "Jin Wook Lee"
 header-img: assets/img/mixer1.png
 ---
 
-# The RF Mixer
+# The RF mixer
 
 In Junior labs, we were tasked to design a single-balanced RF mixer that modulates an RF signal with a 4MHz local oscillator.
 

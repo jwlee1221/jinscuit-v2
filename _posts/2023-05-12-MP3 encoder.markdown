@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "MP3 encoder"
+description: "A MATLAB-based audio encoder and decoder following the MPEG-1 audio layer 1 standard."
+date:       2023-05-12 09:00:00
+author:     "Jin Wook Lee"
+header-img: assets/img/encoder2.png
+---
+
+# The MP3 audio encoder
+
+
+In Music & Engineering, the professor introduced me to many, many analog and digital musical equipment. It was all very exciting, but the most dauting topic was MP3 compression.
+
+The development of audio compression is absolutely bizarre. How does it work so well? Once I attempted to code an MPEG encoder in MATLAB, I began to appreciate many details - and also learned of the shortcomings of audio compression. It was eye-opening.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/encoder1.png" width="40%">
+</p>
+
+The simplified block diagram of an MPEG encoder shown above outlines the basic components of the compression process. The procedure relies on psychoacoustic masking to allocate sample bits dynamically, allowing a smaller number of bits to be used at certain sample windows at the expense of increased noise. The following is a brief description of my implementation of each block.
+
+Filter bank:
+I’ve implemented the filter bank exactly as described in Pan95. This is the “efficient” implementation of the polyphase filter, and outputs samples in 32 sub-bands.
+
+Psychoacoustic model:
+I’ve modeled this block loosely off of model 1. The block centers 384 samples of time-aligned input audio in a 512-sample buffer, applies a 512-point Hanning window, and computes a 1024-point FFT. Then, I determine the frequency bounds of 73 one-third critical bands and compute the signal energy of each band. Meanwhile, I use interp1 to determine the minimum absolute threshold of hearing within each one-third critical band and determine the SMR of each critical band. Lastly, I use the upper frequency bound of each one-third critical band to map some of the 73 SMR values to their corresponding sub-band.
+
+Bit allocation:
+This block computes the number of bits and scale factor of each 12 sample of the 32 sub-bands. Using SMR value, I allocate a maximum of 14 bits to the sub-bands with large SMR, and a minimum of 0 bits to the sub-bands with small SMR. In other words, the bit rate varies depending on the signal energy of each frame. Then, I set the scale factor to match the maximum sample to the maximum possible value of the binary digit (for n bits, the maximum is 2n).
+
+Encoding and decoding:
+To encode the audio, I take the output of the filter bank and scale each 12-sample frame of the 32 sub-bands by their corresponding scale factors. These samples are able to be represented by binary digits with the predetermined number of bits per-sub-band. To decode the audio, I follow the decoding and synthesis procedure exactly as described in the synthesis sub-band filter of the MPEG audio standard.
+
+I’ve attempted to encode and decode audio samples, but the resulting output is quite horrible to hear. The good news is that I can still hear the note durations and rhythm of the input sample, so I know that the polyphase decomposition and decoding work properly! 
+
+Compared to uncompressed audio, MPEG compression may be useful for reducing file size of music. However, when audio compression is used during the recording of lengthy environmental noise surveys, you will realize that the compression makes it difficult to capture events such as airplane passby's and vehicular traffic. This shortcoming was often the bane of the work done at AKRF (refer to post!).
