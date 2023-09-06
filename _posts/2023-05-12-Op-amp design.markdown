@@ -10,7 +10,7 @@ header-img: assets/img/opamp1.png
 # The operational amplifier
 
 
-(To be continued)
+(To be continued.)
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/opamp2.png" width="40%">
