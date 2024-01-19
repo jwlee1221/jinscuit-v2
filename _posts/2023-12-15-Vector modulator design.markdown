@@ -9,10 +9,6 @@ header-img: assets/img/MVM 1.png
 
 # A project in designing a 16-QAM vector modulator at 5.4GHz.
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/jwlee1221/jinscuit-v2/master/assets/img/akrf2.png" width="30%">
-</p>
-
 After struggling through the magical realm of microwave engineering, we completed a design project through Keysight's PathWave ADS program.
 
 The 16-QAM vector modulator was designed to operate at 5.4GHz, supporting a minimum symbol rate of 810Msps, while meeting phase accuracy, amplitude accuracy, insertion loss, and power constraints. Specifications are shown below:
